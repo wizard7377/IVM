@@ -1,0 +1,13 @@
+
+
+[custom.all.llvm]
+type   = "github"
+url    = "https://github.com/wizard7377/LLVM.git"
+commit = "latest:main"
+ipkg   = "llvm.ipkg"
+packagePath = true
+
+[custom.all.llvmvm]
+type   = "local"
+path   = "."
+ipkg   = "LLVMVM.ipkg"

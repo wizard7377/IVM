@@ -4,7 +4,7 @@ import Core.Context
 import Compiler.Common
 import Idris.Driver
 import Idris.Syntax
-
+import Data.String
 compile :
   Ref Ctxt Defs -> Ref Syn SyntaxInfo ->
   (tmpDir : String) -> (execDir : String) ->
