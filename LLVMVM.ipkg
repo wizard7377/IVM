@@ -13,7 +13,7 @@ authors = "Asher Frost"
 -- langversion
 
 -- packages to add to search path
-depends = idris2, contrib, network, llvm
+depends = contrib, network, llvm, idris2
 
 -- modules to install
 -- modules =
@@ -26,7 +26,7 @@ executable = idrisvm-llvm
 -- opts =
 sourcedir = "src"
 -- builddir = "build"
--- outputdir =
+outputdir = "bin"
 
 -- script to run before building
 -- prebuild = git clone 

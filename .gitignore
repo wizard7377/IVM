@@ -9,3 +9,6 @@
 build/
 depends/
 LLVM/
+bin/
+samples/**
+!samples/*.idr
