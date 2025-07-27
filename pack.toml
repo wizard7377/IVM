@@ -7,7 +7,7 @@ commit = "latest:main"
 ipkg   = "llvm.ipkg"
 packagePath = true
 
-[custom.all.llvmvm]
+[custom.all.ivm]
 type   = "local"
 path   = "."
-ipkg   = "LLVMVM.ipkg"
+ipkg   = "IVM.ipkg"

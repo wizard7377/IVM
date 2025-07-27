@@ -53,4 +53,4 @@ llvmvmCgInternal = MkCG compileInternal executeInternal Nothing Nothing
 
 public export
 mainInternal : IO ()
-mainInternal = mainWithCodegens [("llvmvm", llvmvmCgInternal)]
+mainInternal = mainWithCodegens [("ivm-vm", llvmvmCgInternal)]
